@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,500&display=swap');
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(wallpaper1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    /* font-family: 'Dancing Script', cursive; */
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 18px;
+    /* px; */
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    font-size: 15px;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:hover {
+    border: #fff;
+    background: #fff;
+    color: #ff7200;
+    transition: .5s;
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.contant {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    right: 50px;
+
+}
+
+.contant par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Libre Bodoni', serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+h1 .small {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.contant h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-size: 50px;
+    /* padding-left: ; */
+    margin-top: 15%;
+    letter-spacing: 2px;
+}
+
+.contant h1 .dev {
+    color: #ff7200;
+}
+
+.contant button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: none;
+    top: 50px;
+}
+
+.cn a {
+    width: 140px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: #ff7200;
+    border: none;
+    /* border: none; */
+    color: #fff;
+    cursor: pointer;
+    padding: 3%;
+
+}
+
+.cn a:hover {
+    background: #fff;
+    color: #ff7200;
+    transition: .5s ease-in;
+}
+.form
+{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 130px;
+    left: 140vh;
+}
+.form h3
+{
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background: #ff7200;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    position: relative;
+    justify-items: center;
+    place-items: center;
+    left:15%;
+    top: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form input
+{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background: none;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 35px;
+    left: 6%;
+}
+.form .btnn
+{
+    width: 250px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #ff7200;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btnn:hover
+{
+    color: #ff7200;
+    background: #fff;
+    transition: .5s;
+}
+.form p
+{
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4vh;
+}
+.form a
+{
+    color: #ff7200;
+    text-decoration: none;
+    font-size: 18px;
+}
